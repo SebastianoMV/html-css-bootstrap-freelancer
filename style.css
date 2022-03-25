@@ -22,6 +22,22 @@
   height: 500px;
 }
 
+.h700{
+  height: 700px;
+}
+
+
+/* UTILITIES */
+
+.smv-container-big{
+  width: 80%;
+  margin: auto;
+}
+
+.smv-container-small{
+  width: 70%;
+  margin: auto;
+}
 
 /* HEADER */
 
@@ -50,3 +66,19 @@ header{
 
 .img-jumbo{
 }
+
+/* MAIN */
+
+section{
+}
+
+.box-star{
+  width: 400px;
+  margin: auto;
+}
+
+.btn-download{
+  width: 100px;
+  margin: auto;
+}
+
