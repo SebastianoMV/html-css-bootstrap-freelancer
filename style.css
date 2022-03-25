@@ -1,0 +1,52 @@
+
+/* DEBUG */
+
+.debug{
+  background-color: rgba(255, 0, 0, 0.3);
+  border: 1px solid black;
+}
+
+.h100{
+  height: 100px;
+}
+
+.h200{
+  height: 200px;
+}
+
+.h300{
+  height: 300px;
+}
+
+.h500{
+  height: 500px;
+}
+
+
+/* HEADER */
+
+header{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* JUMBOTRON */
+
+.jumbotron{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  margin-top: 100px;
+}
+
+.box-jumbo{
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-jumbo{
+}
