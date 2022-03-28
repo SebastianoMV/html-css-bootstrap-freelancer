@@ -28,13 +28,14 @@
 
 /* UTILITIES */
 
+/* Ho eliminato le classi % grande in favore della classe container di defoult di boostrap
 .smv-container-big{
   width: 80%;
   margin: auto;
-}
+} */
 
 .smv-container-small{
-  width: 70%;
+  width: 60%;
   margin: auto;
 }
 
