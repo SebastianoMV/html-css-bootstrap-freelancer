@@ -13,24 +13,24 @@
 <body>
 
   <header class="blue">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light smv-bg pt-4">
+    <nav class="navbar navbar-expand-md navbar-light bg-light smv-bg">
       <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand smv-white smv-font-size smv-font-bold" href="#">Start Bootstrap</a>
+        <button class="navbar-toggler smv-border-bars" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+          <ul class="navbar-nav me-auto mb-2 mb-md-0"></ul>
 
-          <ul class="navbar-nav mb-2 mb-lg-0">
+          <ul class="navbar-nav mb-2 mb-md-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link smv-white smv-font-bold" href="#">Portfolio</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+            <li class="nav-item ">
+              <a class="nav-link smv-white smv-font-bold" href="#">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">contact</a>
+            <li class="nav-item ">
+              <a class="nav-link smv-white smv-font-bold" href="#">contact</a>
             </li>
             
           </ul>
@@ -46,8 +46,14 @@
        <div class="img-jumbo h300 text-center mb-2">
          <img src="img/avatar.svg" alt="">
        </div>
-       <h1>START BOOTSTRAP</h1>
-       <div class="debug h100"></div>
+       <h1 class="smv-font-bold">START BOOTSTRAP</h1>
+       <div class="m-auto text-center">
+        <div class="smv-container-star d-flex justify-content-center align-items-center">
+           <div class="barra-star barra-star-white"></div>
+           <div class="star-center"> <i class="fa-solid fa-star"></i></div>
+           <div class="barra-star barra-star-white"></div>
+        </div>
+      </div>
        <h4 class="text-center my-3"> GRAPHIC - WEB DESIGNER - ILLUSTRATOR</h4>
     </div>
     
@@ -57,11 +63,13 @@
 
     <!-- PORTFOLIO -->
 
-    <section class="debug ">
-      <div class="box-star h100 debug">
-        <h2>PORTFOLIO</h2>
-        <div class="smv-container-star">
-
+    <section class="debug py-5">
+      <div class="m-auto text-center">
+        <h2 class="smv-font-bold">PORTFOLIO</h2>
+        <div class="smv-container-star d-flex justify-content-center align-items-center">
+           <div class="barra-star"></div>
+           <div class="star-center"> <i class="fa-solid fa-star"></i></div>
+           <div class="barra-star"></div>
         </div>
       </div>
       <div class="container">
@@ -103,9 +111,14 @@
 
     <!-- ABOUT -->
 
-    <section class="green">
-      <div class="box-star h100 debug">
-        <H2>ABOUT</H2>
+    <section class="green py-5">
+      <div class="m-auto text-center">
+        <h2 class="smv-font-bold">ABOUT</h2>
+        <div class="smv-container-star d-flex justify-content-center align-items-center">
+           <div class="barra-star barra-star-white"></div>
+           <div class="star-center"> <i class="fa-solid fa-star"></i></div>
+           <div class="barra-star barra-star-white"></div>
+        </div>
       </div>
       <div class="smv-container-small">
       
@@ -119,19 +132,26 @@
           </div>
         
       </div>
+      <div class="text-center">
       <button type="button" class="btn btn-outline-primary smv-btn-outline"><i class="fa-solid fa-download"></i> Primary</button>
+      </div>
 
       
     </section>
 
     <!-- CONTACT ME -->
 
-    <section class="debug">
-      <div class="box-star h100 debug">
-        <H2>CONTACT ME</H2>
+    <section class="py-5">
+      <div class="m-auto text-center">
+        <h2 class="smv-font-bold">CONTACT ME</h2>
+        <div class="smv-container-star d-flex justify-content-center align-items-center">
+           <div class="barra-star"></div>
+           <div class="star-center"> <i class="fa-solid fa-star"></i></div>
+           <div class="barra-star"></div>
+        </div>
       </div>
       <div class="smv-container-small">
-          
+          <form action="">
             <label for="name"></label>
             <input type="text" class="smv-border-form" id="name" placeholder="Name">
           
@@ -144,10 +164,11 @@
             <input type="number" class="smv-border-form" id="phone" placeholder="Phone Number">
         
             <label for="text"></label>
-            <textarea id="text" rows="4" cols="50">
+            <textarea id="text" class="smv-border-form" rows="4" cols="50">
               
             </textarea>
-        
+            <input type="submit" value="Send" class="smv-submit p-2">
+          </form>
           
         
       </div>
@@ -159,16 +180,52 @@
   <!-- FOOTER -->
 
   <footer class="light-blue">
-    <div class="container">
+    <div class="container pt-5">
         <div class="row">
-          <div class="col-12 col-md-4 h100 debug"></div>
-          <div class="col-12 col-md-4 h100 debug"></div>
-          <div class="col-12 col-md-4 h100 debug"></div>
+          <div class="col-12 col-md-4">
+            <div class="text-center pb-5">
+              <h5>LOCATION</h5>
+              <div>
+                2215 Jhon Daniel Drive Clark, MO 54243
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="text-center pb-5">
+              <h5>AROUND THE WEB</h5>
+              <div>
+                <span class="circular-brand">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </span>
+                <span class="circular-brand">
+                  <i class="fa-brands fa-google-plus-g"></i>
+                </span>
+                <span class="circular-brand"> 
+                  <i class="fa-brands fa-twitter"></i>
+                </span>
+                <span class="circular-brand">
+                  <i class="fa-brands fa-linkedin-in"></i>
+                </span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-4">
+            <div class="text-center pb-5">
+              <h5>ABOUT FREELANCER</h5>
+              <div>
+                Freelance is a free to use, open source Bootstrap theme created by <span class="text-evidenziato"> Start Bootstrap</span>
+              </div>
+            </div>
+          </div>
         </div>
 
     </div>
-    <div class="container-fluid blue h100">
-
+    <div class="container-fluid blue">
+       <div class="text-center p-5">
+         Copyright &copy; SMV 2022
+       </div>
     </div>
   </footer>
   

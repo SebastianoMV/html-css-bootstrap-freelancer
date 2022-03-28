@@ -54,6 +54,23 @@
   color: white;
 }
 
+.barra-star{
+  width: 120px;
+  height: 4px;
+  background-color: black;
+  border-radius: 50px;
+}
+
+.barra-star-white{
+  background-color: white;
+}
+
+.star-center{
+  font-size: 30px;
+  margin: 10px;
+}
+
+
 
 /* HEADER */
 header{
@@ -65,10 +82,32 @@ header{
   left: 0;
 }
 
+.smv-font-size{
+  font-size: 40px;
+}
+
+.smv-font-bold{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
 .smv-bg{
+  height: 100%;
   background-color: #2c3e50 !important;
 }
 
+.smv-border-bars{
+  color: rgba(255,255,255,0.5) !important;
+  border-color: rgba(255,255,255,0.5) !important;
+}
+
+.smv-white{
+  color: white !important; 
+}
+
+/* header i{
+  color: white;
+} */
 
 /* JUMBOTRON */
 
@@ -99,11 +138,6 @@ h1{
 /* MAIN */
 
 section{
-}
-
-.box-star{
-  width: 400px;
-  margin: auto;
 }
 
 .btn-download{
@@ -142,6 +176,39 @@ section{
   line-height: 50px;
 }
 
-.smv-btn-primary{
-  
+.smv-submit{
+  background-color: #1abc9c;
+  border-radius: 5px;
+  border: #1abc9c;
+  color: white;
+}
+
+
+
+
+/* FOOTER */
+
+.circular-brand{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+  line-height: 40px;
+}
+
+.text-evidenziato{
+  color: #1abc9c;
+}
+
+
+/* MEDIA QUERY */
+
+@media screen and (max-width:576px) {
+  .smv-font-size{
+    font-size: 30px;
+  }
+  .barra-star{
+    width: 80px;
+  }
 }
