@@ -56,14 +56,19 @@
 
 
 /* HEADER */
-
 header{
   width: 100%;
   height: 100px;
+  margin: auto;
   position: fixed;
   top: 0;
   left: 0;
 }
+
+.smv-bg{
+  background-color: #2c3e50 !important;
+}
+
 
 /* JUMBOTRON */
 
@@ -82,8 +87,10 @@ header{
   justify-content: center;
 }
 
-.img-jumbo{
+.img-jumbo img{
+  height: 100%;
 }
+
 
 h1{
   margin: auto;
@@ -104,3 +111,37 @@ section{
   margin: auto;
 }
 
+.smv-card{
+  height: 100%;
+}
+
+.smv-card img{
+  width: 100%;
+  border-radius: 20px;
+}
+
+.smv-btn-outline{
+  color: white;
+  border-color: white;
+}
+
+.smv-btn-outline:hover{
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+.smv-btn-outline:focus {
+  box-shadow: 0 0 0 0.25rem rgba(76, 76, 77, 0.5);
+}
+
+.smv-border-form{
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #d3d3d3;
+  line-height: 50px;
+}
+
+.smv-btn-primary{
+  
+}
