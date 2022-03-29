@@ -137,9 +137,6 @@ h1{
 
 /* MAIN */
 
-section{
-}
-
 .btn-download{
   width: 100px;
   margin: auto;
@@ -147,12 +144,32 @@ section{
 
 .smv-card{
   height: 100%;
+  position: relative;
 }
 
 .smv-card img{
   width: 100%;
   border-radius: 20px;
 }
+
+.smv-card:hover img{
+  filter: brightness(0.5);
+}
+
+.smv-card i{
+  display: none;
+  position: absolute;
+  color: white;
+  font-size: 100px;
+}
+
+.smv-card:hover i{
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 .smv-btn-outline{
   color: white;
